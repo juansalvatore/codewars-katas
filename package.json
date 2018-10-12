@@ -1,0 +1,22 @@
+{
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "description": "🥋 Codewars katas repository with solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juansalvatore/codewars-katas.git"
+  },
+  "author": "Juan Salvatore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juansalvatore/codewars-katas/issues"
+  },
+  "homepage": "https://github.com/juansalvatore/codewars-katas#readme",
+  "dependencies": {
+    "prettier": "^1.14.3"
+  }
+}
