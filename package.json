@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/juansalvatore/codewars-katas#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "prettier": "^1.14.3"
   }
 }
