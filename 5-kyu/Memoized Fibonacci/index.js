@@ -16,17 +16,18 @@ const fibonacci = memoize(fib);
 
 console.log(fibonacci(5))
 
-const test = (a, b) => {
-  return a + b
-}
+// const test = (a, b) => {
+//   return a + b
+// }
 
-function a(fn) {
-  fn
-  return (n1, n2) => {
-    return fn(n1,n2)
-  }
-}
+// function a(fn) {
+//   const cache = {}
+//   return (n1, n2) => {
+//     if(cache[`${n1}${n2}`]) return cache[`${n1}${n2}`]
+//     else return cache[`${n1}${n2}`] = fn(n1,n2)
+//   }
+// }
 
-const test2 = a(test)
-console.log(test2(3,2))
-console.log(test(2,2))
+// const test2 = a(test)
+// console.log(test2(1,1))
+// console.log(test(2,2))
